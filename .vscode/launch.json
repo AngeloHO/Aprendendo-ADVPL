@@ -4,15 +4,37 @@
 		{
 			"type": "totvs_language_debug",
 			"request": "launch",
-			"name": "Depuração do idioma TOTVS",
+			"name": "TOTVS Language Debug",
 			"program": "${command:AskForProgramName}",
 			"cwb": "${workspaceFolder}",
-			"smartclientBin": "../totvs/bin/smartclient/smartclient.exe",
+			"smartclientBin": "C:\\smartclient\\smartclient.exe",
 			"isMultiSession": true,
-			"enableTableSync": true,
-			"extendFeatures": {
-				"charDetails": false
-			}
+			"enableTableSync": true
 		}
-	]
+	],
+	"lastPrograms": [
+		{
+			"label": "ninfa1"
+		},
+		{
+			"label": "sigamdi"
+		},
+		{
+			"label": "sigaadv"
+		},
+		{
+			"label": "teste"
+		},
+		{
+			"label": "array.prw"
+		},
+		{
+			"label": "U_ARRAY"
+		},
+		{
+			"label": "U_TRABALHANDOCOMARRAYS"
+		}
+	],
+	"lastProgramExecuted": "U_TRABALHANDOCOMARRAYS",
+	"lastProgramArguments": []
 }
